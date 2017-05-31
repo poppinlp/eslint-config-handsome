@@ -1,4 +1,6 @@
-const fs = require('fs');
-const yml = require('js-yaml');
+const
+    fs = require('fs'),
+    path = require('path'),
+    yml = require('js-yaml');
 
-module.exports = yml.safeLoad(fs.readFileSync('.eslintrc.yaml', 'utf8'));
+module.exports = yml.safeLoad(fs.readFileSync(path.join(__dirname, '.eslintrc.yaml'), 'utf8'));
