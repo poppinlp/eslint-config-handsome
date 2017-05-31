@@ -304,7 +304,10 @@ rules:
   space-before-blocks: error
   space-before-function-paren:
     - error
-    - always
+    -
+      anonymous: always
+      named: never
+      asyncArrow: always
   space-in-parens: error
   space-infix-ops: error
   space-unary-ops:
