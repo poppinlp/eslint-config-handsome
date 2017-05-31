@@ -39,7 +39,7 @@ npm i eslint-config-handsome --save-dev
 By yarn:
 
 ```shell
-yarn install -D eslint-config-handsome
+yarn add -D eslint-config-handsome
 ```
 
 ## Usage
