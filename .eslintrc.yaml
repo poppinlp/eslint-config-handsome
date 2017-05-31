@@ -15,8 +15,6 @@ env:
   es6: true
   worker: true
   serviceworker: true
-# plugins:
-#   - import
 rules:
   # About Errors
   no-await-in-loop: error
@@ -24,7 +22,6 @@ rules:
   no-cond-assign:
     - error
     - always
-  no-console: error
   no-constant-condition: error
   no-control-regex: error
   no-debugger: error
