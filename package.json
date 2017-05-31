@@ -1,14 +1,15 @@
 {
-  "name": "eslint-config-awesome",
+  "name": "eslint-config-handsome",
   "version": "0.1.0",
-  "description": "Awesome ESLint shareable config",
+  "description": "Handsome ESLint shareable config",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/ava test/test.js"
+    "test": "./node_modules/.bin/ava test/test.js",
+    "upDep": "./node_modules/.bin/ncu -na"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/poppinlp/eslint-config-awesome.git"
+    "url": "git+https://github.com/poppinlp/eslint-config-handsome.git"
   },
   "keywords": [
     "eslint",
@@ -26,14 +27,14 @@
     "jslint",
     "jshint",
     "enforce",
-    "awesome"
+    "handsome"
   ],
   "author": "PoppinL <poppinlp@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/poppinlp/eslint-config-awesome/issues"
+    "url": "https://github.com/poppinlp/eslint-config-handsome/issues"
   },
-  "homepage": "https://github.com/poppinlp/eslint-config-awesome#readme",
+  "homepage": "https://github.com/poppinlp/eslint-config-handsome#readme",
   "peerDependencies": {
     "eslint": ">= 3"
   },
@@ -46,6 +47,7 @@
   "devDependencies": {
     "ava": "^0.19.1",
     "eslint": "^3.19.0",
-    "is-plain-obj": "^1.1.0"
+    "is-plain-obj": "^1.1.0",
+    "npm-check-updates": "^2.11.2"
   }
 }
