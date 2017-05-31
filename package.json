@@ -1,0 +1,51 @@
+{
+  "name": "eslint-config-awesome",
+  "version": "0.1.0",
+  "description": "Awesome ESLint shareable config",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ava test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poppinlp/eslint-config-awesome.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "quality",
+    "check",
+    "checker",
+    "code",
+    "style",
+    "lint",
+    "linter",
+    "hint",
+    "hinter",
+    "jscs",
+    "jslint",
+    "jshint",
+    "enforce",
+    "awesome"
+  ],
+  "author": "PoppinL <poppinlp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poppinlp/eslint-config-awesome/issues"
+  },
+  "homepage": "https://github.com/poppinlp/eslint-config-awesome#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "js-yaml": "^3.8.3"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0",
+    "is-plain-obj": "^1.1.0"
+  }
+}
