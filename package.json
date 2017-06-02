@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-handsome",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Handsome ESLint shareable config",
   "main": "index.js",
   "scripts": {

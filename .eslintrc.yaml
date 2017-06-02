@@ -273,7 +273,6 @@ rules:
   no-unneeded-ternary: error
   no-whitespace-before-property: error
   object-property-newline: error
-  one-var: error
   one-var-declaration-per-line: error
   operator-assignment: error
   operator-linebreak:
