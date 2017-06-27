@@ -292,7 +292,7 @@ rules:
       prev:
         - let
         - const
-      next: *
+      next: '*'
     -
       blankLine: any
       prev:
@@ -303,7 +303,7 @@ rules:
         - const
     -
       blankLine: always
-      prev: *
+      prev: '*'
       next: return
   quote-props:
     - error
@@ -316,7 +316,9 @@ rules:
       allowTemplateLiterals: true
   semi: error
   semi-spacing: error
-  semi-style: last
+  semi-style:
+    - error
+    - last
   space-before-blocks: error
   space-before-function-paren:
     - error

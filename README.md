@@ -92,7 +92,7 @@ Use this in one of your projects? Include one of these badges in your README fil
 
 ## History
 
-- 0.2.0: Bump eslint to 4.x and add new rules
+- 0.2.1: Bump eslint to 4.x and add new rules
 - 0.1.0: Init version
 
 [eslint-shareable-config]:http://eslint.org/docs/developer-guide/shareable-configs
