@@ -90,6 +90,11 @@ Use this in one of your projects? Include one of these badges in your README fil
 [![flat badge](https://img.shields.io/badge/code%20style-handsome-brightgreen.svg?style=flat-square)](https://github.com/poppinlp/eslint-config-handsome)
 ```
 
+## History
+
+- 0.2.0: Bump eslint to 4.x and add new rules
+- 0.1.0: Init version
+
 [eslint-shareable-config]:http://eslint.org/docs/developer-guide/shareable-configs
 [eslint-config-file]:http://eslint.org/docs/user-guide/configuring#configuration-file-formats
 

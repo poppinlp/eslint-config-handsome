@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-handsome",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Handsome ESLint shareable config",
   "main": "index.js",
   "scripts": {
@@ -36,18 +36,18 @@
   },
   "homepage": "https://github.com/poppinlp/eslint-config-handsome#readme",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 4"
   },
   "dependencies": {
-    "js-yaml": "^3.8.3"
+    "js-yaml": "^3.8.4"
   },
   "engines": {
     "node": ">=4"
   },
   "devDependencies": {
     "ava": "^0.19.1",
-    "eslint": "^3.19.0",
+    "eslint": "^4.1.1",
     "is-plain-obj": "^1.1.0",
-    "npm-check-updates": "^2.11.2"
+    "npm-check-updates": "^2.12.1"
   }
 }
