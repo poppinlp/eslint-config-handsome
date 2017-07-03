@@ -242,6 +242,7 @@ rules:
   max-len:
     - warn
     -
+      code: 160
       tabWidth: 2
       ignoreComments: true
       ignoreUrls: true
