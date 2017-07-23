@@ -1,6 +1,8 @@
 # eslint-config-handsome
 
 [![Build Status][ci-img]][ci-url]
+[![Code coverage][cov-img]][cov-url]
+[![Code GPA][rate-img]][rate-url]
 [![Dependency Status][dep-img]][dep-url]
 [![Dev Dependency Status][dev-dep-img]][dev-dep-url]
 [![Peer Dependency Status][peer-dep-img]][peer-dep-url]
@@ -102,6 +104,12 @@ Use this in one of your projects? Include one of these badges in your README fil
 
 [ci-img]:https://img.shields.io/travis/poppinlp/eslint-config-handsome.svg?style=flat-square
 [ci-url]:https://travis-ci.org/poppinlp/eslint-config-handsome
+
+[cov-img]:https://img.shields.io/coveralls/poppinlp/eslint-config-handsome.svg?style=flat-square
+[cov-url]:https://coveralls.io/github/poppinlp/eslint-config-handsome?branch=master
+
+[rate-img]:https://img.shields.io/codeclimate/github/kabisaict/flow.svg?style=flat-square
+[rate-url]:https://codeclimate.com/github/poppinlp/eslint-config-handsome
 
 [dep-img]:https://img.shields.io/david/poppinlp/eslint-config-handsome.svg?style=flat-square
 [dep-url]:https://david-dm.org/poppinlp/eslint-config-handsome

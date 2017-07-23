@@ -4,8 +4,10 @@
   "description": "Handsome ESLint shareable config",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/ava test/test.js",
-    "upDep": "./node_modules/.bin/ncu -na"
+    "test": "npm run eslint && npm run ut",
+    "ut": "./node_modules/.bin/ava test/test.js",
+    "eslint": "./node_modules/.bin/eslint -c .eslintrc.yaml .",
+    "cov": "./node_modules/.bin/nyc npm test && ./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
@@ -46,7 +48,9 @@
   },
   "devDependencies": {
     "ava": "0.21.0",
+    "coveralls": "2.13.1",
     "eslint": "4.3.0",
-    "is-plain-obj": "1.1.0"
+    "is-plain-obj": "1.1.0",
+    "nyc": "11.0.3"
   }
 }
