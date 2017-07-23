@@ -108,7 +108,7 @@ Use this in one of your projects? Include one of these badges in your README fil
 [cov-img]:https://img.shields.io/coveralls/poppinlp/eslint-config-handsome.svg?style=flat-square
 [cov-url]:https://coveralls.io/github/poppinlp/eslint-config-handsome?branch=master
 
-[rate-img]:https://img.shields.io/codeclimate/github/kabisaict/flow.svg?style=flat-square
+[rate-img]:https://img.shields.io/codeclimate/github/poppinlp/eslint-config-handsome.svg?style=flat-square
 [rate-url]:https://codeclimate.com/github/poppinlp/eslint-config-handsome
 
 [dep-img]:https://img.shields.io/david/poppinlp/eslint-config-handsome.svg?style=flat-square
