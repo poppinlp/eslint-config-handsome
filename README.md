@@ -3,6 +3,7 @@
 [![Build Status][ci-img]][ci-url]
 [![Dependency Status][dep-img]][dep-url]
 [![Dev Dependency Status][dev-dep-img]][dev-dep-url]
+[![Peer Dependency Status][peer-dep-img]][peer-dep-url]
 [![NPM version][npm-ver-img]][npm-url]
 [![NPM downloads][npm-dl-img]][npm-url]
 [![NPM license][npm-lc-img]][npm-url]
@@ -92,6 +93,7 @@ Use this in one of your projects? Include one of these badges in your README fil
 
 ## History
 
+- 0.2.3: Add new rules
 - 0.2.1: Bump eslint to 4.x and add new rules
 - 0.1.0: Init version
 
@@ -106,6 +108,9 @@ Use this in one of your projects? Include one of these badges in your README fil
 
 [dev-dep-img]:https://img.shields.io/david/dev/poppinlp/eslint-config-handsome.svg?style=flat-square
 [dev-dep-url]:https://david-dm.org/poppinlp/eslint-config-handsome#info=devDependencies
+
+[peer-dep-img]:https://img.shields.io/david/peer/webcomponents/generator-element.svg?style=flat-square
+[peer-dep-url]:https://david-dm.org/poppinlp/eslint-config-handsome#info=devDependencies
 
 [npm-ver-img]:https://img.shields.io/npm/v/eslint-config-handsome.svg?style=flat-square
 [npm-dl-img]:https://img.shields.io/npm/dm/eslint-config-handsome.svg?style=flat-square
