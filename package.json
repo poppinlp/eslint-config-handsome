@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-handsome",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Handsome ESLint shareable config",
   "main": "index.js",
   "scripts": {
-    "test": "npm run eslint && npm run ut",
     "ut": "./node_modules/.bin/ava test/test.js",
     "eslint": "./node_modules/.bin/eslint -c .eslintrc.yaml .",
+    "test": "npm run eslint && npm run ut",
     "cov": "./node_modules/.bin/nyc npm test && ./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
   "repository": {

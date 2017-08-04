@@ -2,7 +2,6 @@
 
 [![Build Status][ci-img]][ci-url]
 [![Code coverage][cov-img]][cov-url]
-[![Code GPA][rate-img]][rate-url]
 [![Dependency Status][dep-img]][dep-url]
 [![Dev Dependency Status][dev-dep-img]][dev-dep-url]
 [![Peer Dependency Status][peer-dep-img]][peer-dep-url]
@@ -95,6 +94,7 @@ Use this in one of your projects? Include one of these badges in your README fil
 
 ## History
 
+- 0.2.5: Update `prefer-destructing`
 - 0.2.4: Set `warn` to `no-implied-eval`
 - 0.2.3: Add new rules
 - 0.2.1: Bump eslint to 4.x and add new rules
@@ -108,9 +108,6 @@ Use this in one of your projects? Include one of these badges in your README fil
 
 [cov-img]:https://img.shields.io/coveralls/poppinlp/eslint-config-handsome.svg?style=flat-square
 [cov-url]:https://coveralls.io/github/poppinlp/eslint-config-handsome?branch=master
-
-[rate-img]:https://img.shields.io/codeclimate/github/poppinlp/eslint-config-handsome.svg?style=flat-square
-[rate-url]:https://codeclimate.com/github/poppinlp/eslint-config-handsome
 
 [dep-img]:https://img.shields.io/david/poppinlp/eslint-config-handsome.svg?style=flat-square
 [dep-url]:https://david-dm.org/poppinlp/eslint-config-handsome

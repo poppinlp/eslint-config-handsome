@@ -107,7 +107,7 @@ rules:
   no-global-assign: error
   no-implicit-coercion: error
   no-implicit-globals: error
-  no-implied-eval: warn
+  no-implied-eval: error
   no-invalid-this: error
   no-iterator: error
   no-labels: error
@@ -369,7 +369,17 @@ rules:
   no-useless-rename: error
   no-var: error
   prefer-const: error
-  prefer-destructuring: warn
+  prefer-destructuring:
+    - warn
+    -
+      VariableDeclarator:
+        array: false
+        object: true
+      AssignmentExpression:
+        array: false
+        object: false
+    -
+      enforceForRenamedProperties: false
   prefer-rest-params: warn
   prefer-template: warn
   require-yield: error
