@@ -1,4 +1,3 @@
-import fs from 'fs';
 import path from 'path';
 import test from 'ava';
 import eslint from 'eslint';
@@ -15,12 +14,12 @@ test('check config is object', t => {
 });
 
 test('load config in eslint', t => {
-	const
-		linter = new eslint.CLIEngine({
-			useEslintrc: false,
-			configFile: path.join(__dirname, '../.eslintrc.yaml')
-		}),
-		code = fs.readFileSync(path.join(__dirname, 'code.js'));
+	const linter = new eslint.CLIEngine({
+		useEslintrc: false,
+		configFile: path.join(__dirname, '../.eslintrc.yaml')
+	});
 
-	t.is(linter.executeOnText(code).errorCount, 0);
+	t.is(linter.executeOnFiles([
+		path.join(__dirname, 'code.js')
+	]).errorCount, 0);
 });
