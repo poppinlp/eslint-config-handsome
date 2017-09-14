@@ -80,16 +80,16 @@ Add this to your ESLint configuration file such as `.eslintrc`:
 
 Use this in one of your projects? Include one of these badges in your README file to let people know that your code is using the handsome style.
 
-[![badge](https://img.shields.io/badge/eslint%20style-handsome-brightgreen.svg?_=1)](https://github.com/poppinlp/eslint-config-handsome)
+[![badge](https://img.shields.io/badge/eslint-handsome-brightgreen.svg)](https://github.com/poppinlp/eslint-config-handsome)
 
 ```markdown
-[![badge](https://img.shields.io/badge/eslint%20style-handsome-brightgreen.svg)](https://github.com/poppinlp/eslint-config-handsome)
+[![badge](https://img.shields.io/badge/eslint-handsome-brightgreen.svg)](https://github.com/poppinlp/eslint-config-handsome)
 ```
 
-[![flat badge](https://img.shields.io/badge/eslint%20style-handsome-brightgreen.svg?style=flat-square)](https://github.com/poppinlp/eslint-config-handsome)
+[![flat badge](https://img.shields.io/badge/eslint-handsome-brightgreen.svg?style=flat-square)](https://github.com/poppinlp/eslint-config-handsome)
 
 ```markdown
-[![flat badge](https://img.shields.io/badge/eslint%20style-handsome-brightgreen.svg?style=flat-square)](https://github.com/poppinlp/eslint-config-handsome)
+[![flat badge](https://img.shields.io/badge/eslint-handsome-brightgreen.svg?style=flat-square)](https://github.com/poppinlp/eslint-config-handsome)
 ```
 
 ## History
