@@ -4,8 +4,8 @@
   "description": "Handsome ESLint shareable config",
   "main": "index.js",
   "scripts": {
-    "ut": "./node_modules/.bin/ava test/test.js",
     "eslint": "./node_modules/.bin/eslint -c .eslintrc.yaml .",
+    "ut": "./node_modules/.bin/ava test/test.js",
     "test": "npm run eslint && npm run ut",
     "cov": "./node_modules/.bin/nyc npm test && ./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
@@ -41,7 +41,7 @@
     "eslint": ">= 4"
   },
   "dependencies": {
-    "js-yaml": "3.9.1"
+    "js-yaml": "3.10.0"
   },
   "engines": {
     "node": ">=4"
