@@ -94,6 +94,8 @@ Use this in one of your projects? Include one of these badges in your README fil
 
 ## History
 
+- 0.2.6: Remove `no-mixed-operators`
+- 0.2.5: Update `prefer-destructing`
 - 0.2.5: Update `prefer-destructing`
 - 0.2.4: Set `warn` to `no-implied-eval`
 - 0.2.3: Add new rules
