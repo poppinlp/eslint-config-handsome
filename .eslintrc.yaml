@@ -78,7 +78,10 @@ rules:
   block-scoped-var: error
   class-methods-use-this: error
   complexity: error
-  curly: error
+  curly:
+    - error
+    - multi-or-nest
+    - consistent
   default-case: error
   dot-location:
     - error

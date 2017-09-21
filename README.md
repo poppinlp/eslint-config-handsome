@@ -94,6 +94,7 @@ Use this in one of your projects? Include one of these badges in your README fil
 
 ## History
 
+- 0.2.7: Update `curly`
 - 0.2.6: Remove `no-mixed-operators`
 - 0.2.5: Update `prefer-destructing`
 - 0.2.5: Update `prefer-destructing`
