@@ -18,8 +18,13 @@ test('load config in eslint', t => {
 		useEslintrc: false,
 		configFile: path.join(__dirname, '../.eslintrc.yaml')
 	});
-
-	t.is(linter.executeOnFiles([
+	const res = linter.executeOnFiles([
 		path.join(__dirname, 'code.js')
-	]).errorCount, 0);
+	]);
+
+	console.log(res);
+
+	t.plan(2);
+	t.is(res.errorCount, 0);
+	t.is(res.warningCount, 0);
 });

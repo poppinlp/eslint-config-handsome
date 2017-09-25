@@ -80,7 +80,7 @@ rules:
   complexity: error
   curly:
     - error
-    - multi-or-nest
+    - multi-line
     - consistent
   default-case: error
   dot-location:
