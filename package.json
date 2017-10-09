@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-handsome",
-  "version": "0.2.8",
+  "version": "0.3.0",
   "description": "Handsome ESLint shareable config",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
     "test": "npm run eslint && npm run ut",
     "cov": "./node_modules/.bin/nyc npm test && ./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
+  "files": [
+    ".eslintrc.yaml"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/poppinlp/eslint-config-handsome.git"
@@ -48,8 +51,8 @@
   },
   "devDependencies": {
     "ava": "0.22.0",
-    "coveralls": "2.13.1",
-    "eslint": "4.7.0",
+    "coveralls": "3.0.0",
+    "eslint": "4.8.0",
     "is-plain-obj": "1.1.0",
     "nyc": "11.2.1"
   }

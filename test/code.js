@@ -21,3 +21,10 @@ if (foo) {
 if (bar) f1();
 
 console.log(foo, bar, obj, text, bool, f1, f2, f3);
+
+export default async () => {
+	const api = () => new Promise(resolve => resolve());
+	const res = await api();
+
+	return res;
+};
