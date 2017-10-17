@@ -158,7 +158,7 @@ rules:
     -
       allowEmptyReject: true
   radix: error
-  require-await: error
+  require-await: warn
   wrap-iife:
     - error
     - inside

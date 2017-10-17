@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-handsome",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Handsome ESLint shareable config",
   "main": "index.js",
   "scripts": {
@@ -52,7 +52,7 @@
   "devDependencies": {
     "ava": "0.22.0",
     "coveralls": "3.0.0",
-    "eslint": "4.8.0",
+    "eslint": "4.9.0",
     "is-plain-obj": "1.1.0",
     "nyc": "11.2.1"
   }
