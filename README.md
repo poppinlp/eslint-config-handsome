@@ -61,9 +61,9 @@ Add this to your `package.json` file:
 
 ```json
 {
-	"eslintConfig": {
-		"extends": "handsome"
-	}
+  "eslintConfig": {
+    "extends": "handsome"
+  }
 }
 ```
 
@@ -73,7 +73,7 @@ Add this to your ESLint configuration file such as `.eslintrc`:
 
 ```json
 {
-	"extends": "handsome"
+  "extends": "handsome"
 }
 ```
 
@@ -95,6 +95,9 @@ Use this in one of your projects? Include one of these badges in your README fil
 
 ## History
 
+- 0.3.2:
+  - Remove `capitalized-comments`
+  - Loose `operator-linebreak`
 - 0.3.1: Move `require-await` from `error` to `warn`
 - 0.3.0: Use `espree` as Javascript parser
 - 0.2.8: Update `curly`

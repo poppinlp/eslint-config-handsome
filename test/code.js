@@ -18,6 +18,7 @@ if (foo) {
 	f1();
 }
 
+// just a lowercase comment
 if (bar) f1();
 
 console.log(foo, bar, obj, text, bool, f1, f2, f3);
@@ -28,3 +29,14 @@ export default async () => {
 
 	return res;
 };
+
+if (
+	foo &&
+	bar &&
+	obj
+) f1();
+
+if (foo
+	&& bar
+	&& obj
+) f1();

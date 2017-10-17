@@ -212,13 +212,6 @@ rules:
     -
       allowSingleLine: true
   camelcase: error
-  capitalized-comments:
-    - error
-    - always
-    -
-      ignorePattern: pragma|ignore
-      ignoreInlineComments: true
-      ignoreConsecutiveComments: true
   comma-dangle: error
   comma-spacing: error
   comma-style: error
@@ -287,6 +280,8 @@ rules:
       overrides:
         '?': before
         ':': before
+        '&&': ignore
+        '||': ignore
   padded-blocks:
     - error
     - never
