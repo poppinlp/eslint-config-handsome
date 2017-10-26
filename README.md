@@ -95,6 +95,7 @@ Use this in one of your projects? Include one of these badges in your README fil
 
 ## History
 
+- 0.3.3: Loose `object-property-newline`
 - 0.3.2:
   - Remove `capitalized-comments`
   - Loose `operator-linebreak`

@@ -5,6 +5,7 @@ const
 		text: 'blablabla',
 		bool: true
 	},
+	obj2 = { foo, bar },
 	{ text, bool } = obj,
 	f1 = () => {
 		console.log(1);
@@ -21,7 +22,7 @@ if (foo) {
 // just a lowercase comment
 if (bar) f1();
 
-console.log(foo, bar, obj, text, bool, f1, f2, f3);
+console.log(foo, bar, obj, obj2, text, bool, f1, f2, f3);
 
 export default async () => {
 	const api = () => new Promise(resolve => resolve());
