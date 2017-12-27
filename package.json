@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-handsome",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "description": "Handsome ESLint shareable config",
   "main": "index.js",
   "scripts": {
-    "eslint": "./node_modules/.bin/eslint -c .eslintrc.yaml .",
-    "ut": "./node_modules/.bin/ava test/test.js",
+    "eslint": "npx eslint -c .eslintrc.yaml .",
+    "ut": "npx ava test/test.js",
     "test": "npm run eslint && npm run ut",
-    "cov": "./node_modules/.bin/nyc npm test && ./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
+    "cov": "npx nyc npm test && npx nyc report --reporter=text-lcov | npx coveralls"
   },
   "files": [
     ".eslintrc.yaml"
@@ -47,13 +47,13 @@
     "js-yaml": "3.10.0"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "devDependencies": {
-    "ava": "0.23.0",
+    "ava": "0.24.0",
     "coveralls": "3.0.0",
-    "eslint": "4.9.0",
+    "eslint": "4.14.0",
     "is-plain-obj": "1.1.0",
-    "nyc": "11.2.1"
+    "nyc": "11.4.1"
   }
 }
