@@ -2,7 +2,7 @@
 
 - 0.4.0:
   - Remove `no-await-in-loop`
-  - Won't test for node.js 4.x
+  - Remove test for node.js 4.x and 6.x
 - 0.3.3: Loose `object-property-newline`
 - 0.3.2:
   - Remove `capitalized-comments`
