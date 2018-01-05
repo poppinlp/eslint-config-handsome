@@ -288,26 +288,26 @@ rules:
   padded-blocks:
     - error
     - never
-  padding-line-between-statements:
-    - warn
-    -
-      blankLine: always
-      prev:
-        - let
-        - const
-      next: '*'
-    -
-      blankLine: any
-      prev:
-        - let
-        - const
-      next:
-        - let
-        - const
-    -
-      blankLine: always
-      prev: '*'
-      next: return
+#  padding-line-between-statements:
+#    - warn
+#    -
+#      blankLine: always
+#      prev:
+#        - let
+#        - const
+#      next: '*'
+#    -
+#      blankLine: any
+#      prev:
+#        - let
+#        - const
+#      next:
+#        - let
+#        - const
+#    -
+#      blankLine: always
+#      prev: '*'
+#      next: return
   quote-props:
     - error
     - as-needed

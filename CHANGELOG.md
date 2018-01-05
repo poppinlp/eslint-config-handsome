@@ -1,5 +1,7 @@
 # eslint-config-handsome
 
+- 0.4.1:
+  - Remove `padding-line-between-statements`
 - 0.4.0:
   - Remove `no-await-in-loop`
   - Remove test for node.js 4.x and 6.x
