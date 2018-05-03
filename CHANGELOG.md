@@ -1,5 +1,7 @@
 # eslint-config-handsome
 
+- 0.5.0:
+  - Update dependencies to fix security problem.
 - 0.4.1:
   - Remove `padding-line-between-statements`
 - 0.4.0:

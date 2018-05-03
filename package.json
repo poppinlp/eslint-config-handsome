@@ -44,16 +44,16 @@
     "eslint": ">= 4"
   },
   "dependencies": {
-    "js-yaml": "3.10.0"
+    "js-yaml": "^3.11.0"
   },
   "engines": {
     "node": ">=6"
   },
   "devDependencies": {
-    "ava": "0.24.0",
-    "coveralls": "3.0.0",
-    "eslint": "4.14.0",
-    "is-plain-obj": "1.1.0",
-    "nyc": "11.4.1"
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.1",
+    "eslint": "^4.19.0",
+    "is-plain-obj": "^1.1.0",
+    "nyc": "^11.7.1"
   }
 }
