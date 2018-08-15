@@ -8,7 +8,6 @@
 [![NPM version][npm-ver-img]][npm-url]
 [![NPM downloads][npm-dl-img]][npm-url]
 [![NPM license][npm-lc-img]][npm-url]
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpoppinlp%2Feslint-config-handsome.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpoppinlp%2Feslint-config-handsome?ref=badge_shield)
 
 🤘Handsome ESLint [shareable config][eslint-shareable-config]. Enforces strict and readable code.🤘
 
@@ -115,7 +114,3 @@ Use this in one of your projects? Include one of these badges in your README fil
 [npm-dl-img]:https://img.shields.io/npm/dm/eslint-config-handsome.svg?style=flat-square
 [npm-lc-img]:https://img.shields.io/npm/l/eslint-config-handsome.svg?style=flat-square
 [npm-url]:https://www.npmjs.com/package/eslint-config-handsome
-
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpoppinlp%2Feslint-config-handsome.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpoppinlp%2Feslint-config-handsome?ref=badge_large)

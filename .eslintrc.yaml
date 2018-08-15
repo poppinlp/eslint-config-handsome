@@ -19,43 +19,45 @@ rules:
   # About Errors
   for-direction: error
   getter-return: error
-  # no-await-in-loop: error
+  no-async-promise-executor: error
+  no-await-in-loop: off
   no-compare-neg-zero: error
   no-cond-assign:
     - error
     - always
+  no-console: warn
   no-constant-condition: error
   no-control-regex: error
   no-debugger: error
   no-dupe-args: error
   no-dupe-keys: error
+  no-duplicate-case: error
   no-empty:
     - error
-    -
-      allowEmptyCatch: false
+    - allowEmptyCatch: false
   no-empty-character-class: error
   no-ex-assign: error
   no-extra-boolean-cast: error
   no-extra-parens:
     - error
     - all
+  no-extra-semi: error
   no-func-assign: error
   no-inner-declarations:
     - error
     - both
   no-invalid-regexp:
     - error
-    -
-      allowConstructorFlags:
+    - allowConstructorFlags:
         - u
         - y
   no-irregular-whitespace:
     - error
-    -
-      skipStrings: true
+    - skipStrings: true
       skipComments: true
       skipRegExps: true
       skipTemplates: true
+  no-misleading-character-class: error
   no-obj-calls: error
   no-prototype-builtins: error
   no-regex-spaces: error
@@ -65,19 +67,21 @@ rules:
   no-unreachable: error
   no-unsafe-finally: error
   no-unsafe-negation: error
+  require-atomic-updates: error
   use-isnan: error
+  valid-jsdoc: off
   valid-typeof: error
 
   # About Best Practices
   accessor-pairs:
     - error
-    -
-      setWithoutGet: true
+    - setWithoutGet: true
       getWithoutSet: false
   array-callback-return: error
   block-scoped-var: error
   class-methods-use-this: error
   complexity: error
+  consistent-return: error
   curly:
     - error
     - multi-line
@@ -89,6 +93,9 @@ rules:
   dot-notation: error
   eqeqeq: error
   guard-for-in: error
+  max-classes-per-file:
+    - error
+    - 1
   no-alert: error
   no-caller: error
   no-case-declarations: error
@@ -96,8 +103,7 @@ rules:
   no-else-return: error
   no-empty-function:
     - error
-    -
-      allow:
+    - allow:
         - constructors
   no-empty-pattern: error
   no-eq-null: error
@@ -116,6 +122,7 @@ rules:
   no-labels: error
   no-lone-blocks: error
   no-loop-func: error
+  no-magic-numbers: off
   no-multi-spaces: error
   no-multi-str: error
   no-new: error
@@ -123,9 +130,10 @@ rules:
   no-new-wrappers: error
   no-octal: error
   no-octal-escape: error
-  no-param-reassign: error
+  no-param-reassign: warn
   no-proto: error
   no-redeclare: error
+  no-restricted-properties: off
   no-return-assign:
     - error
     - always
@@ -133,16 +141,14 @@ rules:
   no-script-url: error
   no-self-assign:
     - error
-    -
-      props: true
+    - props: true
   no-self-compare: error
   no-sequences: error
   no-throw-literal: error
   no-unmodified-loop-condition: error
   no-unused-expressions:
     - error
-    -
-      allowShortCircuit: true
+    - allowShortCircuit: true
       allowTernary: true
       allowTaggedTemplates: true
   no-unused-labels: error
@@ -155,78 +161,97 @@ rules:
   no-with: error
   prefer-promise-reject-errors:
     - error
-    -
-      allowEmptyReject: true
+    - allowEmptyReject: true
   radix: error
   require-await: warn
+  require-unicode-regexp: warn
+  vars-on-top: off
   wrap-iife:
     - error
     - inside
-    -
-      functionPrototypeMethods: true
+    - functionPrototypeMethods: true
   yoda: error
 
+  # About Strict Mode
+  strict: warn
+
   # About Variables
+  init-declarations: off
   no-delete-var: error
   no-label-var: error
   no-restricted-globals:
     - error
     - event
+  no-shadow: warn
   no-shadow-restricted-names: error
   no-undef:
     - error
-    -
-      typeof: true
+    - typeof: true
   no-undef-init: error
+  no-undefined: off
   no-unused-vars:
     - error
-    -
-      ignoreRestSiblings: true
+    - ignoreRestSiblings: true
   no-use-before-define:
     - error
     - nofunc
 
   # About Node.js and CommonJS
+  callback-return: warn
+  global-require: off
   handle-callback-err:
     - error
     - ^(err|error)$
   no-buffer-constructor: error
   no-mixed-requires:
     - error
-    -
-      grouping: true
+    - grouping: true
       allowCall: true
   no-new-require: error
   no-path-concat: error
+  no-process-env: off
+  no-process-exit: off
+  no-restricted-modules: off
+  no-sync: off
 
   # About Stylistic
+  array-bracket-newline: off
   array-bracket-spacing:
     - error
     - never
+  array-element-newline: off
   block-spacing:
     - error
     - always
   brace-style:
     - error
     - 1tbs
-    -
-      allowSingleLine: true
+    - allowSingleLine: true
   camelcase: error
-  comma-dangle: error
+  capitalized-comments: off
+  comma-dangle:
+    - error
+    - always-multiline
   comma-spacing: error
   comma-style: error
   computed-property-spacing: error
+  consistent-this: off
   eol-last: error
   func-call-spacing: error
   func-name-matching: error
   func-names:
     - error
     - never
+  func-style: off
+  function-paren-newline: off
+  id-blacklist: off
+  id-length: off
+  id-match: off
+  implicit-arrow-linebreak: off
   indent:
     - error
     - tab
-    -
-      SwitchCase: 1
+    - SwitchCase: 1
       FunctionDeclaration:
         parameters: 1
       FunctionExpression:
@@ -234,53 +259,78 @@ rules:
   jsx-quotes: error
   key-spacing: error
   keyword-spacing: error
+  line-comment-position: off
   linebreak-style: warn
+  lines-around-comment: off
+  lines-between-class-members: off
   max-depth: warn
   max-len:
     - warn
-    -
-      code: 160
+    - code: 160
       tabWidth: 2
       ignoreComments: true
       ignoreUrls: true
       ignoreTemplateLiterals: true
+  max-lines:
+    - warn
+    - max: 600
+  max-lines-per-function:
+    - warn
+    - max: 100
   max-nested-callbacks:
     - warn
     - 4
   max-params:
     - warn
     - 4
-  max-statements-per-line: error
+  max-statements:
+    - warn
+    - max: 20
+  max-statements-per-line:
+    - warn
+    - max: 1
+  multiline-comment-style: off
+  multiline-ternary: off
   new-cap: error
   new-parens: error
+  newline-per-chained-call: off
   no-array-constructor: error
+  no-bitwise: off
+  no-continue: off
+  no-inline-comments: off
   no-lonely-if: error
-  # no-mixed-operators:
+  no-mixed-operators: off
   no-mixed-spaces-and-tabs: error
   no-multi-assign: error
   no-multiple-empty-lines:
     - error
-    -
-      max: 1
+    - max: 1
   no-negated-condition: error
+  no-nested-ternary: off
   no-new-object: error
+  no-plusplus: off
   no-restricted-syntax:
     - error
     - WithStatement
+  no-tabs: off
+  no-ternary: off
   no-trailing-spaces: error
+  no-underscore-dangle: off
   no-unneeded-ternary: error
   no-whitespace-before-property: error
+  nonblock-statement-body-position: off
+  object-curly-newline: off
+  object-curly-spacing: off
   object-property-newline:
     - error
-    -
-      allowMultiplePropertiesPerLine: true
+    - allowMultiplePropertiesPerLine: true
+  one-var: off
   one-var-declaration-per-line: error
   operator-assignment: error
   operator-linebreak:
     - error
     - after
-    -
-      overrides:
+    - overrides:
         '?': before
         ':': before
         '&&': ignore
@@ -288,70 +338,44 @@ rules:
   padded-blocks:
     - error
     - never
-#  padding-line-between-statements:
-#    - warn
-#    -
-#      blankLine: always
-#      prev:
-#        - let
-#        - const
-#      next: '*'
-#    -
-#      blankLine: any
-#      prev:
-#        - let
-#        - const
-#      next:
-#        - let
-#        - const
-#    -
-#      blankLine: always
-#      prev: '*'
-#      next: return
+  padding-line-between-statements: off
+  prefer-object-spread: off
   quote-props:
     - error
     - as-needed
   quotes:
     - error
     - single
-    -
-      avoidEscape: true
+    - avoidEscape: true
       allowTemplateLiterals: true
+  require-jsdoc: off
   semi: error
   semi-spacing: error
   semi-style:
     - error
     - last
+  sort-keys: off
+  sort-vars: off
   space-before-blocks: error
   space-before-function-paren:
     - error
-    -
-      anonymous: always
+    - anonymous: always
       named: never
       asyncArrow: always
   space-in-parens: error
   space-infix-ops: error
   space-unary-ops:
     - error
-    -
-      words: true
+    - words: true
       nonwords: false
-  spaced-comment:
-    - error
-    - always
-    -
-      line:
-        exceptions:
-          - '-'
-      block:
-        markers:
-          - '!'
-        balanced: true
+  spaced-comment: off
   switch-colon-spacing: error
   template-tag-spacing: error
   unicode-bom: error
+  wrap-regex: off
 
   # About ES6
+  arrow-body-style: off
   arrow-parens:
     - warn
     - as-needed
@@ -361,30 +385,36 @@ rules:
     - error
     - both
   no-class-assign: error
+  no-confusing-arrow: off
   no-const-assign: error
   no-dupe-class-members: error
+  no-duplicate-imports: error
   no-new-symbol: error
+  no-restricted-imports: off
   no-this-before-super: error
   no-useless-computed-key: error
   no-useless-constructor: error
   no-useless-rename: error
   no-var: error
+  object-shorthand: warn
+  prefer-arrow-callback: warn
   prefer-const: error
   prefer-destructuring:
     - warn
-    -
-      VariableDeclarator:
+    - VariableDeclarator:
         array: false
         object: true
       AssignmentExpression:
         array: false
         object: false
-    -
-      enforceForRenamedProperties: false
+    - enforceForRenamedProperties: false
+  prefer-numeric-literals: off
   prefer-rest-params: warn
+  prefer-spread: error
   prefer-template: warn
   require-yield: error
   rest-spread-spacing: error
+  sort-imports: off
   symbol-description: error
   template-curly-spacing: error
   yield-star-spacing:

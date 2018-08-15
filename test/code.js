@@ -1,19 +1,18 @@
-const
-	foo = 1,
-	bar = [1, 2, 3],
-	obj = {
-		text: 'blablabla',
-		bool: true
-	},
-	obj2 = { foo, bar },
-	{ text, bool } = obj,
-	f1 = () => {
-		console.log(1);
-	},
-	f2 = p => console.log(p),
-	f3 = (p1, ...args) => {
-		console.log(args);
-	};
+const foo = 1;
+const bar = [1, 2, 3];
+const obj = {
+	text: 'blablabla',
+	bool: true,
+};
+const obj2 = { foo, bar };
+const { text, bool } = obj;
+const f1 = () => {
+	return 1 + 1;
+};
+const f2 = p => p;
+const f3 = (p1, ...args) => {
+	return [p1, args];
+};
 
 if (foo) {
 	f1();
@@ -22,7 +21,7 @@ if (foo) {
 // just a lowercase comment
 if (bar) f1();
 
-console.log(foo, bar, obj, obj2, text, bool, f1, f2, f3);
+[foo, bar, obj, obj2, text, bool, f1, f2, f3].concat();
 
 export default async () => {
 	const api = () => new Promise(resolve => resolve());
@@ -31,13 +30,6 @@ export default async () => {
 	return res;
 };
 
-if (
-	foo &&
-	bar &&
-	obj
-) f1();
+if (foo && bar && obj) f1();
 
-if (foo
-	&& bar
-	&& obj
-) f1();
+if (foo && bar && obj) f1();

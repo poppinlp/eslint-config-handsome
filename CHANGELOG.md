@@ -1,5 +1,8 @@
 # eslint-config-handsome
 
+- 0.6.0:
+  - Add somen new rules.
+  - Make it loosen.
 - 0.5.0:
   - Update dependencies to fix security problem.
 - 0.4.1:
