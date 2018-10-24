@@ -273,10 +273,10 @@ rules:
       ignoreTemplateLiterals: true
   max-lines:
     - warn
-    - max: 600
+    - max: 800
   max-lines-per-function:
     - warn
-    - max: 100
+    - max: 200
   max-nested-callbacks:
     - warn
     - 4
