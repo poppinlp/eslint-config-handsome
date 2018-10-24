@@ -1,6 +1,6 @@
 # eslint-config-handsome
 
-- 0.6.1: Loosen max lines for function.
+- 0.6.3: Loosen max lines for function.
 - 0.6.0:
   - Add somen new rules.
   - Make it loosen.
